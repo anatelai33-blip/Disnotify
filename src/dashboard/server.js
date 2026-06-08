@@ -122,7 +122,7 @@ app.get('/logout', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  logger.info(\`📊 Dashboard running at http://localhost:\${PORT}\`);
+  logger.info(`📊 Dashboard running on port ${PORT}`);
 });
 
 export default app;
