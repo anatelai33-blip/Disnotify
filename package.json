@@ -11,6 +11,8 @@
  "setup": "prisma generate && prisma db push"
 },
 "dependencies": {
+    "openai": "^4.24.1",
+    "node-cron": "^3.0.3",
  "@prisma/client": "^5.8.0",
  "concurrently": "^8.2.2",
  "discord.js": "^14.14.1",
